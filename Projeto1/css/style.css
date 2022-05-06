@@ -1,3 +1,57 @@
-body{
-    color: aqua;
+body, p, h1, h2, input, textarea{
+    margin: 0;
+    font-family: Poppins;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#navbar{
+    background-color: black;
+    color: white;
+    padding: 0 15px;
+    height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
+    display: inline-block; /*Vai colocar um ao lado do outro*/
+}
+
+#navbar h2{
+    margin: 0px;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar img {
+    height: 40px;
+    transform: rotate();
+    position: absolute; /*Fixa a posição, para mexer o top*/
+    top: 10px;
+
+}
+
+/*Mexendo com a lista*/
+#navbar nav{
+    float: right; /*Leva para direita*/
+}
+#navbar ul {
+    margin-top: 22px;
+}
+
+#navbar li{
+    margin: 0 15px; /*Espaço dos itens da lista*/
+}
+
+/*MExendo nos links da header*/
+#navbar-list li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#navbar-list li a:hover {
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    color: #FFFFFF;
 }
