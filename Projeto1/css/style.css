@@ -92,3 +92,29 @@ h2{
     padding: 15px;
 
 }
+
+/*about*/
+#Sobre-mim{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: black;
+    padding-top: 50px;
+    height: 350px;
+   
+  
+}
+
+#Sobre-mim h2{
+    margin-bottom: 20px;
+    /*padding-bottom: 30px; */
+
+}
+
+#Sobre-mim p{
+    /*padding-bottom: 160px;*/
+   /*max-width: 650px; códigos do professor, não utilizado.
+    *margin-right: auto;
+    *margin-left: auto;
+    */
+    line-height: 30px; /*Espaçamento entre as linhas*/
+}
