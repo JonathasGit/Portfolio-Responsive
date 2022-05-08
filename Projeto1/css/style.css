@@ -123,5 +123,13 @@ h2{
 /*Parte dos Skills*/
 #skills{
     margin-top: -100px;
+    background-color: #FFFFFF;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #DDD; /*deixar borda cinza*/ 
+    border-radius: 10px;
+    
+
 
 }
