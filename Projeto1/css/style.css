@@ -55,3 +55,40 @@ h2{
     text-decoration: none;
     color: #FFFFFF;
 }
+
+
+/*Banner*/
+#main-banner{
+    height: 70vh; /*Se comporta de acordo com a altura do monitor*/
+    background-image: url(../img/Imagem\ de\ fundo.jpg) ;
+    background-size: cover;
+    padding-top: 15vh; /*Colocar um pouco para baixo*/
+
+}
+
+/*Conteudo dentro do Banner*/
+.banner-info{
+ width: 40%;
+ margin-right: auto;
+ margin-left: auto;
+ /*background-color: black;*/
+ text-align: center;
+ color:#FFFFFF;
+}
+
+.banner-info img{
+    height: 120px;
+    border-radius: 50%; /*imagem com borda*/
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.banner-info p {
+    background-color: black;
+    font-weight: bold; /*Deixar fonte em negrito*/
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto; 
+    padding: 15px;
+
+}
