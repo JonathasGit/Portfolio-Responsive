@@ -128,8 +128,50 @@ h2{
     margin-right: auto;
     margin-left: auto;
     border: 1px solid #DDD; /*deixar borda cinza*/ 
-    border-radius: 10px;
-    
+    border-radius: 10px;  
+}
+/*Ajustar elementos dentro do container*/
+#skills .container{ /*referente a linha 57 do html*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
 
+.skills-container{
+    flex: 1 1 1 ; /*Para preencher o flex*/
+    text-align: center;
+    padding: 60px 25px;
+}
 
+.central{
+border-left:  1px solid #ccc;
+border-right: 1px solid #ccc;
+}
+
+/*Ajustar o h3 da seção*/
+.skills-container h3{
+    color: #c83737;
+    font-size: 24px;
+}
+.skills-container img{
+    height: 100px;
+    padding: 15px;
+    margin-bottom: 25px;
+    /*Efeito da borda*/
+    border-top:  1px solid #c83737 ; 
+    border-left:  1px solid #c83737 ; 
+    border-bottom:  4px solid #c83737 ; 
+    border-right:  4px solid #c83737 ; 
+}
+
+.skills-container .subtitle{
+    font-weight: bold;
+    color:#c83737;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.skills-container p {
+    line-height: 25px ;
 }
