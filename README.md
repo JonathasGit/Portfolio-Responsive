@@ -7,6 +7,10 @@ Primeira dobra - Menu, banner de fundo, Introdução, foto e um Botão.
 
 ![image](https://user-images.githubusercontent.com/57269883/167278393-5af33fd6-f80c-4916-8aad-de5b9b683ba2.png)
 
+Segunda dobra - Resumo sobre a carreira, seção com as skills.
+
+![image](https://user-images.githubusercontent.com/57269883/167634608-efa900d4-a401-4783-95e9-f08698c7d703.png)
+
 
 
 
