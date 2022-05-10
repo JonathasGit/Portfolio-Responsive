@@ -241,6 +241,70 @@ border-right: 1px solid #ccc;
 }
 
 
+/*PRojetos*/
+
+#projetos{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#projetos h2{
+    color: #c83737;
+    margin-bottom: 50px;
+}
+
+#projetos p{
+    margin-bottom: 50px;
+}
+
+#projetos a{
+    font-weight: bold;
+    color: #c83737;
+}
+
+/*Mexendo com as imagens dos cursos*/
+.projetos-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+/*Classe da cada quadrado*/
+.projetos-box{
+    flex:  1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 300px;
+    background-size: cover;
+    border-right: 2px solid #c83737;
+    border-bottom: 2px solid #c83737;
+}
+
+.proj1{
+    background-image: url(../img/front\ end.png);
+}
+.proj2{
+    background-image: url(../img/front\ end.png);
+}
+.proj3{
+    background-image: url(../img/front\ end.png);
+}
+.proj4{
+    background-image: url(../img/front\ end.png);
+}
+.proj5{
+    background-image: url(../img/front\ end.png);
+}
+
+.proj6{
+    background-image: url(../img/front\ end.png);
+}
+
+
 
 
 
