@@ -305,7 +305,42 @@ border-right: 1px solid #ccc;
 }
 
 
+/*Rodapé*/
+footer{
+    padding: 50px 0;
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+}
 
+footer img{
+    height: 50px;
+    margin: 30px 0;    
+}
+
+footer p{
+    margin-top: 25px;
+}
+
+footer form{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input, footer textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box; /*limitar para não passar da largura definida na linha 326*/
+    margin-bottom: 20px;
+    width: 100%; /*PEga os 100% dos 400px linha 326*/
+    display: block;
+}
+
+footer .detalhe{
+    font-weight: bold;
+    
+}
 
 
 
