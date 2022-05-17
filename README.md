@@ -11,6 +11,8 @@ Segunda dobra - Resumo sobre a carreira, seção com as skills.
 
 ![image](https://user-images.githubusercontent.com/57269883/167634608-efa900d4-a401-4783-95e9-f08698c7d703.png)
 
+Em andamento
+
 
 
 
